@@ -1,0 +1,10 @@
+<?php
+foreach($this->entries as $entry) :
+?>
+
+<h2><a href="?action=showentry&id=<?=$entry['id']?>"><?=$entry['title']?></a></h2>
+<p><?=$entry['content']?></p>
+
+<?php
+endforeach;
+?>
