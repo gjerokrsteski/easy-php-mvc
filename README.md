@@ -49,7 +49,7 @@ The model, view and controller are intimately related and in constant contact. T
 
     The basic MVC relationship = 
 
-    User -> uses -> Controller -> manipulates -> Model/Aplication -> updates -> View -> sees -> User
+    User -> uses -> Controller -> manipulates -> Model/Application -> updates -> View -> sees -> User
 
 
 Even though the above diagram is incredibly simple, there are some people who try to read more into it than is really there, and they attempt to enforce their interpretations as "rules" which define what is "proper" MVC. To put it as simply as possible the MVC pattern requires the following:
