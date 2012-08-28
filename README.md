@@ -5,11 +5,8 @@ After researching various articles on the internet I came up with the following 
 
 The MVC paradigm is a way of breaking an application, or even just a piece of an application's interface, into three parts: the model, the view, and the controller. MVC was originally developed to map the traditional input, processing, output roles into the GUI realm:
 
-<code>
-Input --> Processing --> Output 
-
-Controller --> Model --> View
-</code>
+    Input      --> Processing --> Output 
+    Controller --> Model      --> View
 
 
 Model
@@ -48,11 +45,10 @@ How they fit together
 ---------------------
 The model, view and controller are intimately related and in constant contact. Therefore, they must reference each other. The picture below illustrates the basic Model-View-Controller relationship:
 
-<code>
-The basic MVC relationship = 
+    The basic MVC relationship = 
 
-User -> uses -> Controller -> manipulates -> Model/Aplication -> updates -> View -> sees -> User
-</code>
+    User -> uses -> Controller -> manipulates -> Model/Aplication -> updates -> View -> sees -> User
+
 
 Even though the above diagram is incredibly simple, there are some people who try to read more into it than is really there, and they attempt to enforce their interpretations as "rules" which define what is "proper" MVC. To put it as simply as possible the MVC pattern requires the following:
 
