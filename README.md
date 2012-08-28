@@ -1,6 +1,8 @@
 The Principles of the MVC Design Pattern
 ========================================
 
+This example code is no production code and should be used for training purposes only!
+
 After researching various articles on the internet I came up with the following descriptions of the principles of the Model-View-Controller design pattern:
 
 The MVC paradigm is a way of breaking an application, or even just a piece of an application's interface, into three parts: the model, the view, and the controller. MVC was originally developed to map the traditional input, processing, output roles into the GUI realm:
