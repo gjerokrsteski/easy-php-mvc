@@ -5,11 +5,26 @@ This example code is no production code and should be used for training purposes
 
 After researching various articles on the internet I came up with the following descriptions of the principles of the Model-View-Controller design pattern:
 
-The MVC paradigm is a way of breaking an application, or even just a piece of an application's interface, into three parts: the model, the view, and the controller. MVC was originally developed to map the traditional input, processing, output roles into the GUI realm:
 
     Input      --> Processing --> Output 
     Controller --> Model      --> View
 
+The MVC paradigm is a way of breaking an application, or even just a piece of an application's interface, into three parts: the model, the view, and the controller. MVC was originally developed to map the traditional input, processing, output roles into the GUI realm:
+
+
+    <?php
+    // incorporate our classes.    
+    include('Framework/Controller.php');
+    include('Framework/View.php');
+    include('Controller/Blog.php');
+    include('Models/Blog.php');
+    
+    // create controller.
+    $controller = new Controller_Blog($_GET);
+
+    // print out the content of the web-application.
+    echo $controller->render();
+    
 
 Model
 ------
